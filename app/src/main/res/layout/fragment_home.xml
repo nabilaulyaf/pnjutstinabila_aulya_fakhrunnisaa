@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="?attr/actionBarSize"
+    android:paddingHorizontal="16dp"
+    tools:context=".HomeFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tentang_aplikasi"
+        android:textSize="56sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Pendataan Alumni PNJ adalah aplikasi berbasis web yang dirancang khusus untuk mengelola data alumni Politeknik Negeri Jakarta (PNJ). Aplikasi ini bertujuan untuk memperkuat jaringan antara alumni dan institusi, memudahkan pelacakan perkembangan karir alumni, serta mendukung berbagai inisiatif akademik dan profesional." />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Aplikasi Pendataan Alumni PNJ dikembangkan oleh tim TI PNJ dengan dukungan penuh dari berbagai jurusan dan pihak administrasi kampus. Kami terus berkomitmen untuk meningkatkan fitur dan keamanan aplikasi sesuai dengan kebutuhan pengguna. Dukungan teknis tersedia melalui layanan bantuan online yang responsif dan ramah." />
+</LinearLayout>
